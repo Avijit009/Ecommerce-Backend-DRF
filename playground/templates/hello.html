@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% if name %}
+    <h1>Hello {{name}}</h1>
+    {% else %}
+    <h1>Hello Django</h1>
+    {% endif %}
+
+    <!-- {% for customer in customers %}
+    <ul>
+        <li>{{customer.email}}</li>
+    </ul>
+    {% endfor %} -->
+
+    
+    <!-- {% for colection in colections %}
+    <ul>
+        <li>{{colection.title}}</li>
+    </ul>
+    {% endfor %} -->
+
+    
+    <!-- {% for product in products %}
+    <ul>
+        <li>{{product.id}}</li>
+    </ul>
+    {% endfor %} -->
+
+<!--     
+    {% for order in orders %}
+    <ul>
+        <li>{{order.payment_status}}</li>
+    </ul>
+    {% endfor %} -->
+
+    
+    <!-- {% for orderitem in orderitems %}
+    <ul>
+        <li>{{orderitem.order_id}}</li>
+    </ul>
+    {% endfor %} -->
+
+    <!-- Aggregate -->
+    <!-- {{products}} -->
+
+    <!-- Executing raw queries -->
+    <!-- {{result}} -->
+
+</body>
+</html>
